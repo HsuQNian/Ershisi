@@ -9,10 +9,10 @@ router.beforeResolve((_to, _from, next) => {
 </script>
 <template>
   <div class="header">
-    <nuxt-link to="/">Home</nuxt-link>
-    <nuxt-link to="/blog">Blog</nuxt-link>
-    <nuxt-link to="/friends">Friends</nuxt-link>
-    <nuxt-link to="/about">About</nuxt-link>
+    <nuxt-link to="/">主页</nuxt-link>
+    <nuxt-link to="/blog">博客</nuxt-link>
+    <nuxt-link to="/friends">友链</nuxt-link>
+    <nuxt-link to="/about">关于</nuxt-link>
   </div>
   <div
     class="toggle-menu"
@@ -43,10 +43,10 @@ router.beforeResolve((_to, _from, next) => {
       class="mobileHeader"
       @click.self="store.mobileHeader = !store.mobileHeader"
     >
-      <nuxt-link to="/">Home</nuxt-link>
-      <nuxt-link to="/blog">Blog</nuxt-link>
-      <nuxt-link to="/friends">Friends</nuxt-link>
-      <nuxt-link to="/about">About</nuxt-link>
+    <nuxt-link to="/">主页</nuxt-link>
+      <nuxt-link to="/blog">博客</nuxt-link>
+      <nuxt-link to="/friends">友链</nuxt-link>
+      <nuxt-link to="/about">关于</nuxt-link>
     </div>
   </transition>
 

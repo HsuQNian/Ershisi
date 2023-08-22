@@ -1,6 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3-Blog
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Or refer to the author's blog [HsuQNian](https://hsuqnian.top/).
 
 ## Setup
 

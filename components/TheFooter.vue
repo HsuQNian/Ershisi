@@ -1,5 +1,5 @@
 <template>
-  <div id="Footer">&copy; 2023&emsp;yourself Name.&emsp;All Rights Reserved.</div>
+  <div id="Footer">&copy; 2023&emsp;名称.&emsp;All Rights Reserved.</div>
 </template>
 <style scoped>
 #Footer {

@@ -107,25 +107,25 @@ let toTop = () => {
 
 #contentBox {
   height: 100vh;
-
   width: 100vw;
   user-select: text;
   scroll-behavior: smooth;
   overflow-y: scroll;
   transition: all 0.32s ease-in-out;
-}
-#content {
-  padding-top: 80px;
-  white-space: pre-wrap;
-  transition: all 0.3s ease-in-out;
-  &:not(.markdown-body) {
-    color: var(--Virtual);
-    & h2 {
-      width: 72vw;
-      margin: auto;
+  #content {
+    padding-top: 80px;
+    white-space: pre-wrap;
+    transition: all 0.3s ease-in-out;
+    &:not(.markdown-body) {
+      color: var(--Virtual);
+      & h2 {
+        width: 72vw;
+        margin: auto;
+      }
     }
   }
 }
+
 ::selection,
 .markdown-body ::selection {
   background: #bbb;

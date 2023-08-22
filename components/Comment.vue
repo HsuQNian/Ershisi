@@ -7,10 +7,10 @@ const app = defineProps({
 <template>
   <div class="comments-container">
     <giscus-widget
-      repo="HsuQNian/HsuQNian.github.io"
-      repoid="R_kgDOJRfHVg"
-      category="Announcements"
-      category-id="DIC_kwDOJRfHVs4CVnN2"
+      repo=""
+      repoid=""
+      category=""
+      category-id=""
       mapping="pathname"
       strict="0"
       reactionsenabled="1"

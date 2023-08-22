@@ -4,9 +4,9 @@ const data = await queryContent(`/friends`).findOne();
 <template>
   <div id="contentBox">
     <div style="padding-top: 64px; text-align: center; font-size: 0.9rem">
-      Please leave a message below to apply to join the friend chain
+      申请加入友链请在下方留言
       <br />
-      (Random order regardless of order)
+      (随机顺序不分先后)
     </div>
     <div id="friends">
       <FriendCard
@@ -21,7 +21,7 @@ const data = await queryContent(`/friends`).findOne();
         :avatar="friends.avatar"
       />
     </div>
-    <div style="text-align: center; margin: 20px">Lost Link</div>
+    <div style="text-align: center; margin: 20px">已失联友链</div>
     <div id="friends" style="min-height: 20px">
       <FriendCard
         id="FriendCard"
