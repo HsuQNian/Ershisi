@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Quicksand-Light;
+  src: url(@/assets/typeface/Quicksand-Light.ttf);
+}
+:root {
+  font-family: Quicksand-Light, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 200;
+  color-scheme: light dark;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-rendering: optimizeLegibility;
+  user-select: none;
+  -webkit-user-select: none;
+  --Deep: rgb(242, 243, 253);
+  --Shallow: #f5f3f3;
+  --theme: #db5a6b;
+  --Virtual: #848484;
+  --Real: #120e10;
+  --Inverse: #6ca984;
+}
+
+* {
+  -webkit-user-drag: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--Deep);
+  #app {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+a,
+a:active,
+a:hover,
+a:visited,
+a:link,
+a:focus {
+  text-decoration: none;
+}
+.miscellaneous-enter-active,
+.miscellaneous-leave-active,
+.blogPosts-enter-active,
+.blogPosts-leave-active,
+.Loading-enter-active,
+.Loading-leave-active,
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.28s;
+}
+.miscellaneous-enter-from,
+.miscellaneous-leave-to,
+.blogPosts-enter-from,
+.blogPosts-leave-to,
+.Loading-enter-from,
+.Loading-leave-to,
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
